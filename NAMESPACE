@@ -1,0 +1,6 @@
+exportPattern(".") 
+export(robustSD, rET, rRCMT, RCMTmle) 
+importFrom("stats", "median", "rexp", "rbinom", "rlnorm", "acf", "coef", 
+"dlnorm", "integrate", "nls", "nls.control", "optim", "rnorm", "uniroot")
+
+             
