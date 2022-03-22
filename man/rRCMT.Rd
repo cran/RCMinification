@@ -7,7 +7,7 @@ Tailed Exponential and Weibull Random Coefficient Minification Process Simulator
 This function simulates sequences of tailed exponential and
 Weibull random coefficient minification process variates. 
 Random coefficients are lognormal distributed with parameters
-mu and sigma. These are nonnegative time series.  
+mu and sigma. 
 }
 \usage{
 rRCMT(n, p, p.delta, p.eps, lambda, gamma, mu, sigma, RCMTobj)
@@ -23,17 +23,10 @@ rRCMT(n, p, p.delta, p.eps, lambda, gamma, mu, sigma, RCMTobj)
   \item{sigma}{sigma parameter for lognormal distribution used to simulate random coefficients.}
   \item{RCMTobj}{list containing elements n, p, p.delta, p.eps, lambda and gamma}
 }
-\value{
-a numeric vector of length n
-}
 \author{
 L. Han
 }
 \references{
 Han, L., Braun, W.J. and Loeppky (2018) Random Coefficient Minification Processes. Statistical Papers, pp 1-22.  
-}
-\examples{
-RCsim <- rRCMT(100, 2, .05, .1, 1, 2, 1, 0.5)
-ts.plot(RCsim)
 }
 \keyword{statistics}

@@ -16,9 +16,6 @@ rET(n, prob, rate)
   \item{prob}{vector of probabilities.}
   \item{rate}{vector of exponential rate parameters.} 
 }
-\value{
-   a numeric vector of length n
-}
 \author{
 L. Han
 }

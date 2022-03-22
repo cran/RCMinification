@@ -13,9 +13,6 @@ robustSD(x)
 \arguments{
   \item{x}{A numeric vector.} 
 }
-\value{
-a numeric vector of length 1. 
-}
 \author{
 L. Han
 }
