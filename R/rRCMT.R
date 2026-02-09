@@ -3,7 +3,8 @@ rRCMT <- function(n, p, p.delta, p.eps, lambda, gamma, mu, sigma, RCMTobj) {
 # exponential or Weibull tail distributions (as defined in Littlejohn, 
 # 1994)
 # Random coefficients are lognormal with parameters mu and sigma
-    if (missing(n)) {
+    if (!missing(RCMTobj)) {
+         n <- RCMTobj$n
          p <- RCMTobj$p
          p.delta <- RCMTobj$p.delta
          p.eps <- RCMTobj$p.eps

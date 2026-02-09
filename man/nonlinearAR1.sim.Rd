@@ -5,7 +5,7 @@ Nonlinear AR1 Simulator
 }
 \description{
 This function simulates sequences of variates follow a nonlinear autoregressive order 1 process
-of the form z_n = g(z_{n-1}) + epsilon. A normal distribution is assumed for the innovations.
+of the form z_n = g(z_n-1) + epsilon. A normal distribution is assumed for the innovations.
 }
 \usage{
 nonlinearAR1.sim(n, g, ...)
